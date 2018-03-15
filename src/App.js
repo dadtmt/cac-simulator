@@ -7,7 +7,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <Jumbotron>
           <h1 className="display-3">CAC Simulator</h1>
         </Jumbotron>
