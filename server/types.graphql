@@ -1,0 +1,15 @@
+type Profile @model {
+  id: ID! @isUnique # read-only (managed by Graphcool)
+  createdAt: DateTime! # read-only (managed by Graphcool)
+  updatedAt: DateTime! # read-only (managed by Graphcool)
+  name: String @isUnique
+  m: Int
+  cc: Int
+  cv: Int
+  f: Int
+  e: Int
+  pv: Int
+  i: Int
+  a: Int
+  cd: Int
+}
